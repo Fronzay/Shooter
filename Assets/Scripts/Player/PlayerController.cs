@@ -4,26 +4,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float _speed;
     [SerializeField] CharacterController _characterController;
 
-    Vector3 direction;
+    [SerializeField] private Move _movePlayer;
+    [SerializeField] private Jump _jumpPlayer;
 
-    void Update()
-    {
-        InputRead();
-        Move();
-    }
 
-    private void InputRead()
+    private void Update()
     {
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
-        direction = transform.right * moveX + transform.forward * moveZ;
-    }
+        _jumpPlayer.Gravity(_characterController);
 
-    private void Move()
-    {
-        _characterController.Move(direction * _speed * Time.deltaTime);
+
+        _movePlayer.InputRead();
+        _movePlayer.PlayerBoostSpeed();
+        _movePlayer.PlayerMove(_characterController);
     }
+   
 }

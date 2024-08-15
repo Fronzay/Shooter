@@ -18,8 +18,9 @@ public class Swaying : MonoBehaviour
     private void SwayingGun()
     {
         float newBobY = Mathf.Cos(Time.time * _weaponBobSpeed) * _weaponBobAmount;
+        float newBobX = Mathf.Sin(Time.time * _weaponBobSpeed) * _weaponBobAmount;
 
-        transform.localPosition = originalPosition + new Vector3(0, newBobY, 0);
+        transform.localPosition = originalPosition + new Vector3(newBobX, newBobY, 0);
     }
 
 }

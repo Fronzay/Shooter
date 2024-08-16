@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Health : MonoBehaviour, IDamagable
+public class EnemyHealth : MonoBehaviour, IDamagable
 {
-    private AddScore _score;
-
     [SerializeField] int _health;
     public int health => _health;
     

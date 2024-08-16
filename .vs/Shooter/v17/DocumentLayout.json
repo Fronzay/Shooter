@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\enemyatack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyatack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|c:\\users\\0\\desktop\\shooter game star\\shooter\\assets\\scripts\\player\\weapon\\ammostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\ammostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|c:\\users\\0\\desktop\\shooter game star\\shooter\\assets\\scripts\\player\\weapon\\weaponshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\weapon\\weaponshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\weaponshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|c:\\users\\0\\desktop\\shooter game star\\shooter\\assets\\scripts\\sriptableobjects\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sriptableobjects\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\weapon\\bullet\\bulletforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\bullet\\bulletforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,48 +39,64 @@
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\jump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\enemyatack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyatack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\weapon\\addscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\addscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\weapon\\bullet\\bulletsetdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\bullet\\bulletsetdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\detection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\detection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5824F-721C-DDBD-3F34-DC32FAAB3C4D}|NonConvexCollider.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\plawius-nonconvexcollider\\nonconvexcollidercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5824F-721C-DDBD-3F34-DC32FAAB3C4D}|NonConvexCollider.csproj|solutionrelative:assets\\plawius-nonconvexcollider\\nonconvexcollidercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\weapon\\swaying.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\swaying.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\weapon\\bullet\\bulletforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\bullet\\bulletforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\weapon\\bullet\\bulletsetdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\weapon\\bullet\\bulletsetdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\player\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\sriptableobjects\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sriptableobjects\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\typeenemy\\piratescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\typeenemy\\piratescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\interface\\iscoreble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interface\\iscoreble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\typeenemy\\amazonscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\typeenemy\\amazonscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\typeenemy\\robotscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\typeenemy\\robotscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\typeenemy\\beatlescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\typeenemy\\beatlescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\scripts\\enemy\\typeenemy\\anubisscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\typeenemy\\anubisscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|c:\\users\\0\\desktop\\shooter game star\\shooter\\assets\\scripts\\gameplay\\healingkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\healingkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5824F-721C-DDBD-3F34-DC32FAAB3C4D}|NonConvexCollider.csproj|C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\assets\\plawius-nonconvexcollider\\nonconvexcollidercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5824F-721C-DDBD-3F34-DC32FAAB3C4D}|NonConvexCollider.csproj|solutionrelative:assets\\plawius-nonconvexcollider\\nonconvexcollidercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,37 +106,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 22,
+              "Title": "HealingKit.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\GamePlay\\HealingKit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GamePlay\\HealingKit.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\GamePlay\\HealingKit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GamePlay\\HealingKit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:32:32.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AnubisScore.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\AnubisScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\TypeEnemy\\AnubisScore.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\AnubisScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\TypeEnemy\\AnubisScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:20:20.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BeatleScore.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\BeatleScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\TypeEnemy\\BeatleScore.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\BeatleScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\TypeEnemy\\BeatleScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:19:33.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RobotScore.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\RobotScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\TypeEnemy\\RobotScore.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\RobotScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\TypeEnemy\\RobotScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:17:42.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AmazonScore.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\AmazonScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\TypeEnemy\\AmazonScore.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\AmazonScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\TypeEnemy\\AmazonScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:15:24.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IScoreble.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Interface\\IScoreble.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interface\\IScoreble.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Interface\\IScoreble.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interface\\IScoreble.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:56:01.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PirateScore.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\PirateScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\TypeEnemy\\PirateScore.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\TypeEnemy\\PirateScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\TypeEnemy\\PirateScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:54:18.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "WeaponData.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\SriptableObjects\\WeaponData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SriptableObjects\\WeaponData.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\SriptableObjects\\WeaponData.cs",
               "RelativeToolTip": "Assets\\Scripts\\SriptableObjects\\WeaponData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T16:49:57.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AmmoStorage.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\AmmoStorage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Weapon\\AmmoStorage.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\AmmoStorage.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Weapon\\AmmoStorage.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwA8AAAAnAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T16:48:27.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "CameraShake.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\CameraShake.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CameraShake.cs",
@@ -120,35 +235,38 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\CameraShake.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T12:53:00.872Z"
+              "WhenOpened": "2024-08-15T12:53:00.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerStats.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerStats.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:46:37.251Z"
+              "WhenOpened": "2024-08-15T11:46:37.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:45:27.173Z"
+              "WhenOpened": "2024-08-15T11:45:27.173Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "EnemyAtack.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\EnemyAtack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyAtack.cs",
@@ -156,47 +274,38 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyAtack.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:34:29.371Z"
+              "WhenOpened": "2024-08-15T11:34:29.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Health.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Health.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Health.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "DocumentIndex": 13,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:51:55.404Z"
+              "WhenOpened": "2024-08-15T10:51:55.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BulletSetDamage.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\Bullet\\BulletSetDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Weapon\\Bullet\\BulletSetDamage.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\Bullet\\BulletSetDamage.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Weapon\\Bullet\\BulletSetDamage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:51:46.515Z"
+              "WhenOpened": "2024-08-15T10:51:46.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddScore.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\AddScore.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Weapon\\AddScore.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\AddScore.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Weapon\\AddScore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:47:57.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -204,11 +313,12 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:31:58.434Z"
+              "WhenOpened": "2024-08-15T10:31:58.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "NonConvexColliderComponent.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Plawius-NonConvexCollider\\NonConvexColliderComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Plawius-NonConvexCollider\\NonConvexColliderComponent.cs",
@@ -220,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "Swaying.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\Swaying.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Weapon\\Swaying.cs",
@@ -228,11 +338,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Weapon\\Swaying.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T18:52:31.218Z"
+              "WhenOpened": "2024-08-14T18:52:31.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "Detection.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Enemy\\Detection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Detection.cs",
@@ -240,11 +351,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Detection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T18:16:57.621Z"
+              "WhenOpened": "2024-08-14T18:16:57.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Jump.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Jump.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Jump.cs",
@@ -252,11 +364,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Jump.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T17:25:11.489Z"
+              "WhenOpened": "2024-08-14T17:25:11.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Move.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Move.cs",
@@ -264,11 +377,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Move.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwA4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T17:22:35.249Z"
+              "WhenOpened": "2024-08-14T17:22:35.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
@@ -276,11 +390,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T17:22:01.236Z"
+              "WhenOpened": "2024-08-14T17:22:01.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "BulletForce.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\Bullet\\BulletForce.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Weapon\\Bullet\\BulletForce.cs",
@@ -288,17 +403,18 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Weapon\\Bullet\\BulletForce.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T17:06:17.989Z"
+              "WhenOpened": "2024-08-14T17:06:17.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WeaponShoot.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\WeaponShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Weapon\\WeaponShoot.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\Shooter Game Star\\Shooter\\Assets\\Scripts\\Player\\Weapon\\WeaponShoot.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Weapon\\WeaponShoot.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwDgAAAAiAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAA9wEUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T17:04:47.187Z",
               "EditorCaption": ""

@@ -18,6 +18,8 @@ public class WeaponShoot : MonoBehaviour
     [SerializeField] private float _shootCooldown;
     [SerializeField] private float _shootEffectLifeTime;
 
+    [SerializeField] private int _minusPatronShoot;
+
     private bool _reload;
 
     private void Start()
@@ -34,7 +36,7 @@ public class WeaponShoot : MonoBehaviour
     {
         var input = Input.GetMouseButtonDown(0);
 
-        if (input && !_reload && _ammoStorage.m_currentValueAmmo >= 1)
+        if (input && !_reload && _ammoStorage.m_currentValueAmmo >= 1 && !_ammoStorage.reloadWeapon)
         {
             StartCoroutine(nameof(Shoot));
         }
@@ -54,7 +56,7 @@ public class WeaponShoot : MonoBehaviour
 
         Instantiate(_weaponData.m_prefabBullet, _pointBullet.position, _pointBullet.rotation);
 
-        _ammoStorage.AmmoMinus(1);
+        _ammoStorage.AmmoMinus(_minusPatronShoot);
         yield return new WaitForSeconds(_shootCooldown);
         _reload = false;
     }

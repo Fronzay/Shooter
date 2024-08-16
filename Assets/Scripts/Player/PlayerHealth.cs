@@ -8,7 +8,8 @@ public class PlayerHealth : MonoBehaviour
 {
     private PlayerStats _playerStats;
 
-    [SerializeField] TextMeshProUGUI _textHealth;
+    [SerializeField] TextMeshProUGUI _textHealthValue;
+    [SerializeField] TextMeshProUGUI _textShieldValue;
 
     private void Start()
     { 
@@ -21,12 +22,21 @@ public class PlayerHealth : MonoBehaviour
         if ( _playerStats.health <= 20)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-        _playerStats.health -= damage;
+        if ( _playerStats.playerShield > 0 )
+        {
+            _playerStats.playerShield -= damage;
+        }
+        else
+        {
+            _playerStats.health -= damage;
+        }
+
         SetText();
     }
 
-    private void SetText()
+    public void SetText()
     {
-        _textHealth.text = $"Health: {_playerStats.health}";    
+        _textHealthValue.text = $"Health: {_playerStats.health}";
+        _textShieldValue.text = $"Shield: {_playerStats.playerShield}";    
     }
 }

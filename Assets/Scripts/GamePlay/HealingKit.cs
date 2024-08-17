@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HealingKit : MonoBehaviour
 {
+    [SerializeField] float _addHealthValue;
+
     private PlayerHealth _playerHealth;
 
     [SerializeField] AudioSource _useKit; 
@@ -17,7 +19,7 @@ public class HealingKit : MonoBehaviour
     {
         if (player.TryGetComponent(out PlayerStats stats) && stats.health <= 85)
         {
-            stats.health += 25;
+            stats.health += _addHealthValue;
             _useKit.PlayOneShot(_useKit.clip);
             _playerHealth.SetText();
             Destroy(this.gameObject);

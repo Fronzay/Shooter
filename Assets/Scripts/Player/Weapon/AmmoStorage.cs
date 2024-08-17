@@ -10,8 +10,6 @@ public class AmmoStorage : MonoBehaviour
 
     [SerializeField] private Animator _animatorWeapon;
 
-    [SerializeField] GameObject _textAmmoNull;
-
     [SerializeField] private int _currentValueAmmo = 15;
     [SerializeField] private int _maxValueAmmo = 15;
     [SerializeField] private int _ammoReserve = 300;
@@ -32,16 +30,10 @@ public class AmmoStorage : MonoBehaviour
 
     private void Update() => AmmoReload();
     
-    private void SetText() => _textStorageAmmo.text = $"Ammo: {_currentValueAmmo}/{_ammoReserve}";
+    public void SetText() => _textStorageAmmo.text = $"Ammo: {_currentValueAmmo}/{_ammoReserve}";
 
     private void AmmoReload()
     {
-        if (_currentValueAmmo <= 0)
-            _textAmmoNull.SetActive(true);
-        else
-            _textAmmoNull.SetActive(false);
-
-
         if (_currentValueAmmo < _maxValueAmmo)
         {
             var inputR = Input.GetKeyDown(KeyCode.R);

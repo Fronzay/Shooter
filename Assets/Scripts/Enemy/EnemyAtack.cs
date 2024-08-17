@@ -12,6 +12,8 @@ public class EnemyAtack : MonoBehaviour
     [SerializeField] float _atackTime;
     [SerializeField] int _damage;
 
+    [SerializeField] AudioSource _damagePlayer;
+
     private bool _reload;
 
     private void Start()
@@ -38,6 +40,8 @@ public class EnemyAtack : MonoBehaviour
         _reload = true;
         _animator.SetTrigger("Atack");
         yield return new WaitForSeconds(_atackTime);
+
+        _damagePlayer.PlayOneShot(_damagePlayer.clip);
 
         if (_detection.m_playerDetection)
             _playerHealth.TakeDamage(_damage);

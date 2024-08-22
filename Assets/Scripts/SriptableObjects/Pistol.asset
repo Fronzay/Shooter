@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce2ce33174b3e0499b69de1aceb8b92, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
-  _name: Pistol
+  _name: "\u041F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
   _damage: 0
-  _ammoReserve: 300
   _delay: 0
   _prefabBullet: {fileID: 6703657079721448043, guid: 2017efbf56691664db8651c608bf219e,
     type: 3}
+  _isAutomatic: 0

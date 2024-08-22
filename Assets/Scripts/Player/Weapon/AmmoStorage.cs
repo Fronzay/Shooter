@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AmmoStorage : MonoBehaviour
 {
     [SerializeField] private WeaponData _weaponData;
     [SerializeField] private TextMeshProUGUI _textStorageAmmo;
+    [SerializeField] private WeaponShoot _weaponShoot;
+    [SerializeField] private ChangeWeapon _changeWeapon;
 
     [SerializeField] private Animator _animatorWeapon;
+    [SerializeField] string _animationReloadString;
 
     [SerializeField] private int _currentValueAmmo = 15;
     [SerializeField] private int _maxValueAmmo = 15;
@@ -26,8 +30,14 @@ public class AmmoStorage : MonoBehaviour
     private bool _reloadWeapon;
     public bool reloadWeapon => _reloadWeapon;
 
-    private void Start() => SetText();
+    private void Start()
+    {
+        SetText();
 
+        _weaponShoot = GetComponent<WeaponShoot>();
+        _changeWeapon = GetComponentInParent<ChangeWeapon>();
+
+    }
     private void Update() => AmmoReload();
     
     public void SetText() => _textStorageAmmo.text = $"Ammo: {_currentValueAmmo}/{_ammoReserve}";
@@ -38,7 +48,7 @@ public class AmmoStorage : MonoBehaviour
         {
             var inputR = Input.GetKeyDown(KeyCode.R);
 
-            if ( inputR && !_reloadWeapon)
+            if ( inputR && !_reloadWeapon && !_weaponShoot.reloadWeaponFire)
             {
                 _ammoRemained = _maxValueAmmo - _currentValueAmmo;
                 StartCoroutine(nameof(ReloadWeapon));
@@ -55,7 +65,7 @@ public class AmmoStorage : MonoBehaviour
     private IEnumerator ReloadWeapon()
     {
         _reloadWeapon = true;
-        _animatorWeapon.Play("rig_reload");
+        _animatorWeapon.Play(_animationReloadString);
         _weaponReload.PlayOneShot(_weaponReload.clip);
         _textStorageAmmo.text = $"Ammo: Reload... /{_ammoReserve}";
         yield return new WaitForSeconds(_timeReload);

@@ -6,6 +6,9 @@ public class BulletSetDamage : MonoBehaviour
 {
     private EnemyHealth _health;
 
+    [SerializeField] GameObject _prefabBlood;
+
+
     private void OnTriggerEnter(Collider other)
     {
         _health = other.GetComponent<EnemyHealth>();
@@ -23,7 +26,9 @@ public class BulletSetDamage : MonoBehaviour
         var detection = col.TryGetComponent(out IDamagable damage);
 
         if (detection)
-        {
+        { 
+
+            Instantiate(_prefabBlood, transform.position, Quaternion.identity);
             damage.GetDamage();
             Destroy(this.gameObject);
         }         

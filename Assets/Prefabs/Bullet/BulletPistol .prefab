@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _forceValue: 50000
+  spreadAngle: 0
 --- !u!54 &-7468076710496790929
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -165,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dfecac0765a74a458ba9e8e3b2d7cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _prefabBlood: {fileID: 163734, guid: 0a5ac034133a7654a8565697adff5548, type: 3}
 --- !u!114 &3179582958093130559
 MonoBehaviour:
   m_ObjectHideFlags: 0

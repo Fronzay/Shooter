@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class EnemyMoveTarget : MonoBehaviour
 {
-    [SerializeField] Transform _target;
     [SerializeField] NavMeshAgent _enemy;
 
     private void Update()
@@ -15,6 +14,6 @@ public class EnemyMoveTarget : MonoBehaviour
 
     private void EnemyMove()
     {
-        _enemy.SetDestination(_target.position);
+        _enemy.SetDestination(GameManager.Instance.m_playerTransform.position);
     }
 }

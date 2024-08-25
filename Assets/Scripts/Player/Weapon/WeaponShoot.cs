@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Pool;
 
 public class WeaponShoot : MonoBehaviour
 {
@@ -94,8 +95,8 @@ public class WeaponShoot : MonoBehaviour
         for (int i = 0; i < _minusPatronShoot; i++)
         {
             Debug.Log("Выстрел");
-            Instantiate(_weaponData.m_prefabBullet, _pointBullet.position, _pointBullet.rotation);
-
+            //Instantiate(_weaponData.m_prefabBullet, _pointBullet.position, _pointBullet.rotation);
+            LeanPool.Spawn(_weaponData.m_prefabBullet, _pointBullet.position, _pointBullet.rotation);
         }
     }
 }

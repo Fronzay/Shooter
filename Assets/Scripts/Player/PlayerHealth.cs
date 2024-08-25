@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using TMPro.Examples;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] TextMeshProUGUI _textHealthValue;
     [SerializeField] TextMeshProUGUI _textShieldValue;
 
+    [SerializeField] GameObject _panelYoiDeatch;
+
     private void Start()
     { 
         _playerStats = GetComponent<PlayerStats>();
@@ -20,11 +23,19 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         if ( _playerStats.health <= 20)
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            ActivatePanel();
+        
 
         if ( _playerStats.playerShield > 0 )
         {
-            _playerStats.playerShield -= damage;
+            if ( _playerStats.playerShield != 10)
+                _playerStats.playerShield -= damage;
+
+            
+            if ( _playerStats.playerShield == 10)
+            {
+                _playerStats.playerShield -= (damage - 10);
+            }
         }
         else
         {
@@ -38,5 +49,13 @@ public class PlayerHealth : MonoBehaviour
     {
         _textHealthValue.text = $"Health: {_playerStats.health}";
         _textShieldValue.text = $"Shield: {_playerStats.playerShield}";    
+    }
+
+    private void ActivatePanel()
+    {
+        _panelYoiDeatch.SetActive(true);
+        Time.timeScale = 0;
+        Cursor.lockState = CursorLockMode.Confined;
+        GetComponentInChildren<MouseController>().enabled = false;
     }
 }

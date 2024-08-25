@@ -8,7 +8,7 @@ public class DropItems : MonoBehaviour
     [SerializeField] private GameObject shieldPrefab;
     [SerializeField] private GameObject ammoPrefab;
 
-    private const float dropChance = 10;
+    private const float dropChance = 25;
     public void Drop(Transform position)
     {
         float randomValue = Random.Range(0, 100);
@@ -17,7 +17,7 @@ public class DropItems : MonoBehaviour
 
         if (randomValue <= dropChance)
         {
-            int itemType = Random.Range(0, 3);
+            int itemType = Random.Range(0, 2);
 
             GameObject itemToDrop = null;
 
@@ -29,9 +29,7 @@ public class DropItems : MonoBehaviour
                 case 1:
                     itemToDrop = shieldPrefab;
                     break;
-                case 2:
-                    itemToDrop = ammoPrefab;
-                    break;
+                
             }
 
             if (itemToDrop != null)

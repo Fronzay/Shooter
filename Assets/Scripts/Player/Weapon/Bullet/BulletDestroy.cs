@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Pool;
 
 public class BulletDestroy : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class BulletDestroy : MonoBehaviour
 
     private void Destroy()
     {
-        Destroy(this.gameObject, _timeDestroy);
+        LeanGameObjectPool.Destroy(gameObject, _timeDestroy);
+        //Destroy(this.gameObject, _timeDestroy);
     }
 }
 

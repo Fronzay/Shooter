@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Pool;
 
 public class SpawnEnemy : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class SpawnEnemy : MonoBehaviour
     private void Spawn()
     {
        
-        if ( _currentAliveEnemy < _maxAliveEnemy)
+        if ( _currentAliveEnemy < _maxAliveEnemy && GameManager.Instance.m_currentDeatchEnemy < 31)
         {
             Debug.Log("2");
 
@@ -35,7 +36,8 @@ public class SpawnEnemy : MonoBehaviour
             for (int i = 0; i < (_maxAliveEnemy - _currentAliveEnemy); i++)
             {
                 Debug.Log("1");
-                Instantiate(_enemyPrefab, _transform[Random.Range(0, _transform.Length)].position, Quaternion.identity);
+                //Instantiate(_enemyPrefab, _transform[Random.Range(0, _transform.Length)].position, Quaternion.identity);
+                LeanPool.Spawn(_enemyPrefab, _transform[Random.Range(0, _transform.Length)].position, Quaternion.identity);
             }
         }
     }

@@ -12,6 +12,8 @@ public class LevelTheEnd : MonoBehaviour
 
     [SerializeField] GameObject _panelTheEnd;
 
+   private List<GameObject> _enemyes = new List<GameObject>();  
+
     private bool _theEnd;
 
     private void Start() => Init();
@@ -23,8 +25,8 @@ public class LevelTheEnd : MonoBehaviour
     {
         if (!_theEnd && GameManager.Instance.m_currentDeatchEnemy >= _spawnEnemy.m_maxEnemy)
         {
+            FindAnyObjectByType<MouseController>().enabled = false;
             Cursor.lockState = CursorLockMode.Confined;
-            Debug.Log("F");
             _panelTheEnd.SetActive(true);
             Time.timeScale = 0;
             _theEnd = true;

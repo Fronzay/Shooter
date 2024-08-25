@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Pool;
 
 public class BulletSetDamage : MonoBehaviour
 {
@@ -30,7 +31,8 @@ public class BulletSetDamage : MonoBehaviour
 
             Instantiate(_prefabBlood, transform.position, Quaternion.identity);
             damage.GetDamage();
-            Destroy(this.gameObject);
+            LeanGameObjectPool.Destroy(gameObject);
+            //Destroy(this.gameObject);
         }         
     }
 }

@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Search;
 using UnityEngine;
 
 public class MouseController : MonoBehaviour
 {
-   public Transform player;  // Трансформ игрока, за которым будет следовать камера
-   public Transform weapon;  // Трансформ игрока, за которым будет следовать камера
-    public Vector3 offset;     // Смещение камеры относительно игрока
-    public float smoothing = 5f;  // Скорость плавного перемещения камеры
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform weapon;
+    [SerializeField] private Vector3 offset;
+    [SerializeField] private float smoothing = 5f;
 
-    public float sensitivity = 2f; // Чувствительность мыши для вращения камеры
+    [SerializeField] private float sensitivity = 2f;
 
-    private Vector3 currentVelocity;
+   [SerializeField] private Vector3 currentVelocity;
 
     void Start()
     {
@@ -22,6 +21,7 @@ public class MouseController : MonoBehaviour
 
     void Update()
     {
+
         float horizontal = Input.GetAxis("Mouse X") * sensitivity;
         float vertical = -Input.GetAxis("Mouse Y") * sensitivity;
 

@@ -20,6 +20,7 @@ public class Move : MonoBehaviour
         float moveZ = Input.GetAxis("Vertical");
 
         direction = transform.right * moveX + transform.forward * moveZ;
+        direction.Normalize();
     }
 
     public void PlayerMove(CharacterController _characterController)

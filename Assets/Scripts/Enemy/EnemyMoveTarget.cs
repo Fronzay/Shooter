@@ -14,6 +14,7 @@ public class EnemyMoveTarget : MonoBehaviour
 
     private void EnemyMove()
     {
+        _enemy.obstacleAvoidanceType = ObstacleAvoidanceType.LowQualityObstacleAvoidance;
         _enemy.SetDestination(GameManager.Instance.m_playerTransform.position);
     }
 }

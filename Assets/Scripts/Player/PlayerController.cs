@@ -7,12 +7,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] CharacterController _characterController;
 
     [SerializeField] private Move _movePlayer;
-    [SerializeField] private Jump _jumpPlayer;
+    [SerializeField] private Gravity _jumpPlayer;
 
 
     private void Update()
     {
-        _jumpPlayer.Gravity(_characterController);
+        _jumpPlayer.UseGravity(_characterController);
 
 
         _movePlayer.InputRead();

@@ -8,6 +8,11 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float _playerShield;
     [SerializeField] private float _defaultSpeed;
 
+    private void Start()
+    {
+        _playerShield = Mathf.Max(0, _playerShield);
+    }
+
     public float health {  get { return _playerHealth; } set { _playerHealth = value; } }   
     public float defaultSpeed {  get { return _defaultSpeed; } set { _defaultSpeed = value; } }   
     public float playerShield {  get { return _playerShield; } set { _playerShield = value; } }   

@@ -21,20 +21,14 @@ public class ChangeWeapon : MonoBehaviour
         int previousWeaponIndex = currentWeaponIndex;
 
 
-        if (!_weaponShoot.reloadWeaponFire)
-        {
-            ChangeMouse();
-            ChangeKeboard();
-        }
-        else if (!_ammoStorage.reloadWeapon)
-        {
-            ChangeMouse();
-            ChangeKeboard();
-        }
+        ChangeMouse();
+        ChangeKeboard();
 
-        if (previousWeaponIndex != currentWeaponIndex)
+
+        if (previousWeaponIndex != currentWeaponIndex && !_ammoStorage.reloadWeapon && !_weaponShoot.reloadWeaponFire)
         {
             SelectWeapon();
+            _ammoStorage.SetText();
         }
     }
 

@@ -6,24 +6,18 @@ public class Gravity : MonoBehaviour
 {
     [SerializeField] private float _jumpForce;
     [SerializeField] private float _gravity;
+    [SerializeField] private float _CurentGravity;
 
     private Vector3 _velocity;
 
     
     public void UseGravity(CharacterController _characterController)
     {
+        Debug.Log(_velocity.y);
+        _characterController.Move(_velocity * _gravity * Time.deltaTime);
 
-        //_characterController.Move(_velocity * _gravity);
+        _velocity.y = -_gravity;
 
 
-        if (_characterController.isGrounded)
-        {
-            _gravity = -3;
-        }
-        else
-        {
-            _characterController.Move(_velocity * _gravity);
-            _velocity.y -= _gravity * Time.deltaTime;
-        }
     }
 }

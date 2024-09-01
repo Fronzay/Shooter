@@ -3,7 +3,77 @@ guid: 2ab365204fb506743b2b471dd2260dcf
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 296b5193bf6d1dd49a27250ecb164190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 258a8f1962b05144691112d9b2d8a405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: 2b9caa3697b39c5439c87afab740b3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kamen11
+    second: {fileID: 2100000, guid: bf5a68c8a0f8b0648af93b7f2b4bb06c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kamen12
+    second: {fileID: 2100000, guid: 817c1e0449843134c9adf09c6a4d2ac8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal10
+    second: {fileID: 2100000, guid: 4845676a36aab404a8e9d41be9db2c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal111
+    second: {fileID: 2100000, guid: ce143d6c0ef4ccb42ae32cb93ec8284e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pesok
+    second: {fileID: 2100000, guid: f120e24b04cf61a429ed2464e3975d44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: a38ccb8d733714d46aa217ab96852f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remetal10
+    second: {fileID: 2100000, guid: 55989067cd7898a498c13172ed3e3374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: silver
+    second: {fileID: 2100000, guid: 4a0550662b881ab489e58d0c4b39c978, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood10
+    second: {fileID: 2100000, guid: 4fe4d8c1f4141164983ec1c4473ce854, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood11
+    second: {fileID: 2100000, guid: 4edc63f535a31dd408952be573ead75a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zubi
+    second: {fileID: 2100000, guid: b6193d81d4657d946aecbceaa68f6637, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

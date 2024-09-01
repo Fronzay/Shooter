@@ -25,10 +25,8 @@ public class LevelTheEnd : MonoBehaviour
     {
         if (!_theEnd && GameManager.Instance.m_currentDeatchEnemy >= _spawnEnemy.m_maxEnemy)
         {
-            FindAnyObjectByType<MouseController>().enabled = false;
-            Cursor.lockState = CursorLockMode.Confined;
-            _panelTheEnd.SetActive(true);
-            Time.timeScale = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
             _theEnd = true;
         }
     }
@@ -40,9 +38,12 @@ public class LevelTheEnd : MonoBehaviour
         _exit.onClick.AddListener(ClickExitButton);
     }
 
-    private void ClickExitButton()
+    public void ClickExitButton()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void ExitGame() => Application.Quit();
+   
 }

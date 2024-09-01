@@ -6,7 +6,7 @@ public class EnemyAtack : MonoBehaviour
 {
     private Detection _detection;
     private PlayerHealth _playerHealth;
-
+    public bool isattak;
     [SerializeField] Animator _animator;
 
     [SerializeField] float _atackTime;
@@ -16,6 +16,9 @@ public class EnemyAtack : MonoBehaviour
 
     private bool _reload;
 
+    public Transform raycat;
+    public GameObject Bulet;
+    public float speadbulet;
     private void Start()
     {
         _detection = GetComponent<Detection>();
@@ -31,7 +34,16 @@ public class EnemyAtack : MonoBehaviour
     {
         if (_detection.m_playerDetection && !_reload)
         {
-            StartCoroutine(nameof(EnemyAtackPlayer));
+            if (isattak == false)
+            {
+                StartCoroutine(EnemyAtackPlayer());
+
+            }
+            else
+            {
+                StartCoroutine(EnemyAtacDistanskPlayer());
+
+            }
         }
     }
 
@@ -46,7 +58,28 @@ public class EnemyAtack : MonoBehaviour
         if (_detection.m_playerDetection)
             _playerHealth.TakeDamage(_damage);
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
         _reload = false;
     }
+
+    private IEnumerator EnemyAtacDistanskPlayer()
+    {
+        _reload = true;
+        _animator.SetTrigger("Atack");
+        yield return new WaitForSeconds(_atackTime);
+
+        _damagePlayer.PlayOneShot(_damagePlayer.clip);
+        if (_detection.m_playerDetection)
+        {
+            GameObject LocalBulet = Instantiate(Bulet, raycat.position,  Quaternion.identity);
+            LocalBulet.GetComponent<Rigidbody>().velocity = Vector3.forward * speadbulet;
+            LocalBulet.GetComponent<Bullet>()._damage = _damage;
+            yield return new WaitForSeconds(0.3f);
+            _reload = false;
+
+        }
+    }
+
+
+
 }

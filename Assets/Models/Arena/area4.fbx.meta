@@ -3,7 +3,42 @@ guid: 5d1f31bd122b1c6408d8a56c032194fc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: c2099c387a9a4344c98b1942e2c1f0d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hrust
+    second: {fileID: 2100000, guid: 9375aca34d6d01b469cc035073517269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal15
+    second: {fileID: 2100000, guid: 7c34964c13c8771418c996dad0631859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sand desert
+    second: {fileID: 2100000, guid: af44c3fccf206a441a2869c28faf3d72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skaladesert
+    second: {fileID: 2100000, guid: cc2f3d6e92b1da2458eb8ac37ac40b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: worm
+    second: {fileID: 2100000, guid: b5303773bf81b2a4d9610afb313c4eeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zubi
+    second: {fileID: 2100000, guid: 64b2cd4bbc8b3d641a9d7c935e371a3c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

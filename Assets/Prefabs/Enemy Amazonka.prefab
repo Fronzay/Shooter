@@ -6156,6 +6156,37 @@ Transform:
   - {fileID: 4892127694469904886}
   m_Father: {fileID: 5378222512130142991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2730880496603862797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8040327657932756060}
+  m_Layer: 0
+  m_Name: Ray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8040327657932756060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2730880496603862797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0.0006817597, y: -0.015781881, z: 0.023664659}
+  m_LocalScale: {x: 0.009930054, y: 0.0099300565, z: 0.0099300565}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 184921220818553430}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2765816105297165818
 GameObject:
   m_ObjectHideFlags: 0
@@ -12925,10 +12956,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
   _pointCheckSpehere: {fileID: 163861274042967828}
-  _maxDistance: 10.6
+  _maxDistance: 70
   _layerMask:
     serializedVersion: 2
     m_Bits: 8
+  _offset: 0
 --- !u!95 &4480181861706666669
 Animator:
   serializedVersion: 5
@@ -12962,10 +12994,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a006f38867e42489b7d0736ddedaee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isattak: 1
   _animator: {fileID: 4480181861706666669}
-  _atackTime: 0.6
+  _atackTime: 2
   _damage: 20
   _damagePlayer: {fileID: 3204728547163639247}
+  raycat: {fileID: 8040327657932756060}
+  Bulet: {fileID: 3904365215831276770, guid: be33579e760eea749bf75c931033ba2e, type: 3}
+  speadbulet: 80
 --- !u!82 &3204728547163639247
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18934,6 +18970,7 @@ Transform:
   m_LocalScale: {x: 100.70439, y: 100.70439, z: 100.70439}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8040327657932756060}
   - {fileID: 7412227121255843451}
   - {fileID: 8721390307662054002}
   - {fileID: 4613160232075985718}

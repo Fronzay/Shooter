@@ -11,7 +11,7 @@ public class SpawnEnemy : MonoBehaviour
 
     [SerializeField] private int _maxEnemy;
     public int m_maxEnemy => _maxEnemy;
-    public int totalenemy;
+    [SerializeField]  static int totalenemy;
 
     [SerializeField] private float _spawnEnemy;
     [SerializeField] private float _currentAliveEnemy;
@@ -35,6 +35,7 @@ public class SpawnEnemy : MonoBehaviour
             {
                 Instantiate(_enemyPrefab, _transform[i].position, Quaternion.identity);
                 totalenemy++;
+               // Debug.Log(totalenemy);
             }
             
 

@@ -261,8 +261,8 @@ GameObject:
   m_Component:
   - component: {fileID: 24960622}
   - component: {fileID: 24960621}
-  - component: {fileID: 24960624}
   - component: {fileID: 24960626}
+  - component: {fileID: 24960624}
   - component: {fileID: 24960625}
   m_Layer: 0
   m_Name: Game Manager
@@ -321,7 +321,6 @@ MonoBehaviour:
   _enemyPrefab: {fileID: 3616385232517090863, guid: 8f2cda9f27725424687a2e474c06de94,
     type: 3}
   _maxEnemy: 45
-  totalenemy: 0
   _spawnEnemy: 0
   _currentAliveEnemy: 0
   _maxAliveEnemy: 20
@@ -362,7 +361,6 @@ MonoBehaviour:
   _enemyPrefab: {fileID: 6025623653742660641, guid: 53e26215116feae44b90bcba926cad1c,
     type: 3}
   _maxEnemy: 45
-  totalenemy: 0
   _spawnEnemy: 0
   _currentAliveEnemy: 0
   _maxAliveEnemy: 10
@@ -31956,74 +31954,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &4207293849157836838
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 288.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 26.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 112.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5129399207948544149, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025623653742660641, guid: 53e26215116feae44b90bcba926cad1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy Amazonka
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 53e26215116feae44b90bcba926cad1c, type: 3}
 --- !u!1 &4210040579785038671
 GameObject:
   m_ObjectHideFlags: 0
@@ -60189,7 +60119,6 @@ SceneRoots:
   - {fileID: 8910961}
   - {fileID: 1151603628}
   - {fileID: 3397394770611973411}
-  - {fileID: 4207293849157836838}
   - {fileID: 4113075387350508975}
   - {fileID: 1787432210764011854}
   - {fileID: 543450651625823670}

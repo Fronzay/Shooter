@@ -7923,7 +7923,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 220.4, y: 25.31, z: 11.813}
-  m_LocalScale: {x: 5.106684, y: 5.106684, z: 5.106684}
+  m_LocalScale: {x: 11.380053, y: 11.380053, z: 11.380053}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2273587491941142436}
@@ -8035,10 +8035,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a006f38867e42489b7d0736ddedaee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isattak: 0
   _animator: {fileID: 3955180031583272149}
   _atackTime: 0.6
   _damage: 20
   _damagePlayer: {fileID: 8156391441941824313}
+  raycat: {fileID: 0}
+  Bulet: {fileID: 0}
+  speadbulet: 0
 --- !u!82 &8156391441941824313
 AudioSource:
   m_ObjectHideFlags: 0

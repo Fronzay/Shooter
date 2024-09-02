@@ -72,7 +72,7 @@ public class EnemyAtack : MonoBehaviour
         if (_detection.m_playerDetection)
         {
             GameObject LocalBulet = Instantiate(Bulet, raycat.position,  Quaternion.identity);
-            LocalBulet.GetComponent<Rigidbody>().velocity = Vector3.forward * speadbulet;
+            LocalBulet.GetComponent<Rigidbody>().velocity = raycat.transform.forward * speadbulet;
             LocalBulet.GetComponent<Bullet>()._damage = _damage;
             yield return new WaitForSeconds(0.3f);
             _reload = false;

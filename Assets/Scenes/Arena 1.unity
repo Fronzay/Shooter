@@ -322,7 +322,6 @@ MonoBehaviour:
   _enemyPrefab: {fileID: 3616385232517090863, guid: 8f2cda9f27725424687a2e474c06de94,
     type: 3}
   _maxEnemy: 23
-  totalenemy: 0
   _spawnEnemy: 0
   _currentAliveEnemy: 0
   _maxAliveEnemy: 35
@@ -12649,10 +12648,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a006f38867e42489b7d0736ddedaee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isattak: 0
   _animator: {fileID: 919132147907610381}
   _atackTime: 0.6
   _damage: 20
   _damagePlayer: {fileID: 919132147907610383}
+  raycat: {fileID: 0}
+  Bulet: {fileID: 0}
+  speadbulet: 0
 --- !u!114 &919132147907610386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17659,10 +17662,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a006f38867e42489b7d0736ddedaee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isattak: 0
   _animator: {fileID: 1787432210764011864}
   _atackTime: 0.6
   _damage: 20
   _damagePlayer: {fileID: 1787432210764011862}
+  raycat: {fileID: 0}
+  Bulet: {fileID: 0}
+  speadbulet: 0
 --- !u!82 &1787432210764011862
 AudioSource:
   m_ObjectHideFlags: 0
@@ -44164,10 +44171,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a006f38867e42489b7d0736ddedaee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isattak: 0
   _animator: {fileID: 667874703744732801}
   _atackTime: 0.6
   _damage: 20
   _damagePlayer: {fileID: 3954182055388229508}
+  raycat: {fileID: 0}
+  Bulet: {fileID: 0}
+  speadbulet: 0
 --- !u!4 &5315182952076713776
 Transform:
   m_ObjectHideFlags: 0
@@ -61959,7 +61970,7 @@ PrefabInstance:
     - target: {fileID: 3602033448173513869, guid: a667b23413fc5f740842b86c44705b08,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 67.8
+      value: 32.4
       objectReference: {fileID: 0}
     - target: {fileID: 3602033448173513869, guid: a667b23413fc5f740842b86c44705b08,
         type: 3}

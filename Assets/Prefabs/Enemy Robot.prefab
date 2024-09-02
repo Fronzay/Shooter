@@ -12712,6 +12712,37 @@ Transform:
   - {fileID: 6406144441837985738}
   m_Father: {fileID: 3079064299379823554}
   m_LocalEulerAnglesHint: {x: 0.0000010360034, y: 2.3496141, z: -0.00000445776}
+--- !u!1 &7036171479349930171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2368143858988715048}
+  m_Layer: 0
+  m_Name: Ray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2368143858988715048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7036171479349930171}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.0068668034, y: 3.1061103, z: 0.6574082}
+  m_LocalScale: {x: 105.93004, y: 105.93003, z: 105.93003}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5508597054369293280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &7042378361004803749
 GameObject:
   m_ObjectHideFlags: 0
@@ -17162,9 +17193,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 229.69, y: 24.76, z: 4.8}
-  m_LocalScale: {x: 2.9132438, y: 2.9132438, z: 2.9132438}
+  m_LocalScale: {x: 5.1019635, y: 5.1019635, z: 5.1019635}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2368143858988715048}
   - {fileID: 8712519311550233444}
   - {fileID: 1589215197296040168}
   - {fileID: 3831438301453705773}
@@ -17257,7 +17289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
   _pointCheckSpehere: {fileID: 8712519311550233444}
-  _maxDistance: 10.6
+  _maxDistance: 54.58
   _layerMask:
     serializedVersion: 2
     m_Bits: 8
@@ -17295,10 +17327,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a006f38867e42489b7d0736ddedaee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isattak: 1
   _animator: {fileID: 4817285669249387766}
   _atackTime: 0.6
   _damage: 20
   _damagePlayer: {fileID: 5724989349003023975}
+  raycat: {fileID: 2368143858988715048}
+  Bulet: {fileID: 2236414045492309653, guid: f93658438466c3744975345681f8f5c7, type: 3}
+  speadbulet: 100
 --- !u!82 &5724989349003023975
 AudioSource:
   m_ObjectHideFlags: 0

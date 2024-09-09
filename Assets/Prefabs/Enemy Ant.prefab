@@ -7906,6 +7906,7 @@ GameObject:
   - component: {fileID: 8156391441941824313}
   - component: {fileID: 2986705725410742272}
   - component: {fileID: 3955180031583272149}
+  - component: {fileID: -4947667194533600504}
   m_Layer: 0
   m_Name: Enemy Ant
   m_TagString: Enemy
@@ -7969,7 +7970,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 6
+  m_Speed: 18
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 900
@@ -8172,6 +8173,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-4947667194533600504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4636131795742040799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61521d360c767f6409c7c334bbb4398d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSourceType: 1
 --- !u!1 &4653799960011111353
 GameObject:
   m_ObjectHideFlags: 0

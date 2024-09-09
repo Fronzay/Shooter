@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// если не ошибаюсь, это счетчик, а не менеджер
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;

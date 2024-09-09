@@ -17173,6 +17173,7 @@ GameObject:
   - component: {fileID: 5606366342563880792}
   - component: {fileID: 7693777823753554270}
   - component: {fileID: 4817285669249387766}
+  - component: {fileID: 8350437535930150842}
   - component: {fileID: 486797115847172271}
   - component: {fileID: 5724989349003023975}
   - component: {fileID: 8116318561824689776}
@@ -17263,7 +17264,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 13
+  m_Speed: 10
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 400
@@ -17315,6 +17316,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8350437535930150842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000285541283052303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61521d360c767f6409c7c334bbb4398d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSourceType: 1
 --- !u!114 &486797115847172271
 MonoBehaviour:
   m_ObjectHideFlags: 0

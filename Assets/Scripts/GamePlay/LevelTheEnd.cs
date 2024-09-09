@@ -9,25 +9,47 @@ public class LevelTheEnd : MonoBehaviour
     private SpawnEnemy _spawnEnemy;
 
     [SerializeField] Button _exit;
+    public bool islockCursor;
 
     [SerializeField] GameObject _panelTheEnd;
 
-   private List<GameObject> _enemyes = new List<GameObject>();  
+   private List<GameObject> _enemyes = new List<GameObject>();
 
+    public bool isEnd;
     private bool _theEnd;
 
-    private void Start() => Init();
+
+    private void Start()
+    {
+        Init();
+    }
 
 
-    private void Update() => TheEnd();
+    private void Update()
+    {
+        if (islockCursor == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+
+        TheEnd(); }
 
     private void TheEnd()
     {
         if (!_theEnd && GameManager.Instance.m_currentDeatchEnemy >= _spawnEnemy.m_maxEnemy)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (isEnd == true)
+            {
+                SceneManager.LoadScene("Menu");
 
-            _theEnd = true;
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+                _theEnd = true;
+
+            }
         }
     }
 
@@ -40,9 +62,15 @@ public class LevelTheEnd : MonoBehaviour
 
     public void ClickExitButton()
     {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (isEnd== true)
+        {
+            SceneManager.LoadScene("Menu");
+
+        }
+        Time.timeScale = 1; 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // мб запускать сцену по ее названию? 
     }
+
 
     public void ExitGame() => Application.Quit();
    

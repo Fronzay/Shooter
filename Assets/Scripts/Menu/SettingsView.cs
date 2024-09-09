@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace Menu {
+   // [RequireComponent(typeof(Animator))] ну блять, в игре настройки не работают
     public class SettingsView : MonoBehaviour {
         [SerializeField]
         private AudioSource[] _audioSound;
@@ -29,8 +30,8 @@ namespace Menu {
 
         private Animator _animator;
 
-        private void Awake()
-        {
+      
+        private void Awake() {
             _sliderSensitivity.onValueChanged.AddListener(SetSensitivity);
             _sliderSound.onValueChanged.AddListener(SetSound);
             _sliderMusic.onValueChanged.AddListener(SetMusic);
@@ -44,13 +45,23 @@ namespace Menu {
                 _closeButton.onClick.AddListener(Hide);
 
             _animator = GetComponent<Animator>();
-          
         }
         private void Update()
         {
+            _sliderSensitivity.onValueChanged.AddListener(SetSensitivity);
             _sliderSound.onValueChanged.AddListener(SetSound);
             _sliderMusic.onValueChanged.AddListener(SetMusic);
+
+            _sliderSound.value = PlayerPrefs.GetFloat("SliderVolumeValue");
+            _sliderMusic.value = PlayerPrefs.GetFloat("SliderVolumeValueMusic");
+
+            if (!_isGame)
+                _closeButton.onClick.AddListener(HideAnimation);
+            else
+                _closeButton.onClick.AddListener(Hide);
+
         }
+
         private void HideAnimation() {
             //_animator.SetTrigger("Hide");
             _animator.Play("HideView");
@@ -64,8 +75,9 @@ namespace Menu {
 
         private void ShowAnimation() {
             if(!_isGame) {
-                _menu.Play("HideView");
                 _menu.gameObject.SetActive(true);
+
+                _menu.Play("HideView");
             }
         }
 

@@ -12840,6 +12840,7 @@ GameObject:
   - component: {fileID: 3426102887188026130}
   - component: {fileID: 3204728547163639247}
   - component: {fileID: 8306927595164651175}
+  - component: {fileID: 788142236428930874}
   m_Layer: 0
   m_Name: Enemy Amazonka
   m_TagString: Enemy
@@ -12931,7 +12932,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 13
+  m_Speed: 14
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 900
@@ -13111,6 +13112,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7cdd6a882e018448cb287d10b312c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &788142236428930874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6025623653742660641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61521d360c767f6409c7c334bbb4398d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSourceType: 1
 --- !u!1 &6063424270541991536
 GameObject:
   m_ObjectHideFlags: 0

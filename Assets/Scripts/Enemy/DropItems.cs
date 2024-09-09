@@ -11,7 +11,7 @@ public class DropItems : MonoBehaviour
     private const float dropChance = 25;
     public void Drop(Transform position)
     {
-        float randomValue = Random.Range(0, 100);
+        float randomValue = Random.Range(0, 50);
 
         Debug.Log(randomValue);
 

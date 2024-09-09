@@ -4,8 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Game.Pause {
-    public class PauseView : MonoBehaviour
-    {
+    public class PauseView : MonoBehaviour {
         [SerializeField]
         private Button _countineButton;
 
@@ -13,74 +12,68 @@ namespace Game.Pause {
         private Button _settingsButton;
 
         [SerializeField]
-        private Button _MenuButton;
-
+        private Button _exitToMenu;
 
         [SerializeField]
-        private Button _exitToMenu;
+        private Button _Back;
+
+        public GameObject MenuPaus;
 
         [SerializeField]
         private SettingsView _settingsView;
 
-        public GameObject menu;
-        public GameObject menuCanvas;
-
-
         private void Start () {
             _countineButton.onClick.AddListener(Hide);
-            _MenuButton.onClick.AddListener(Menu);
             _settingsButton.onClick.AddListener(ShowSettings);
             _exitToMenu.onClick.AddListener(ExitMenu);
-        }
-        void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                Show();
-            }
+            _Back.onClick.AddListener(back);
+
         }
 
-        private void ShowSettings() {
+        public void Ispause()
+        {
+            if (!gameObject.activeSelf)
+            { 
+            Cursor.lockState = CursorLockMode.None;
             Time.timeScale = 0f;
-            _settingsView.gameObject.SetActive(true);
-            menu.SetActive(false);
-        }
-        private void Menu()
-        {
+            gameObject.SetActive(!gameObject.activeSelf);
+            gameObject.SetActive(gameObject.activeSelf);
             _settingsView.gameObject.SetActive(false);
-            menu.SetActive(true);
-
+            gameObject.SetActive(true);
         }
-
-        public void Show()
-        {
-            if (!menuCanvas.activeSelf)
-            {
-                Cursor.lockState = CursorLockMode.None;
-                Time.timeScale = 0f;
-                menuCanvas.SetActive(!menuCanvas.activeSelf);
-                gameObject.SetActive(gameObject.activeSelf);
-                _settingsView.gameObject.SetActive(false);
-                menu.SetActive(true);
-
-
-            }
             else
             {
                 Hide();
             }
         }
+        private void ShowSettings() {
+            _settingsView.gameObject.SetActive(true);
+            MenuPaus.SetActive(false);
+            Time.timeScale = 0f;
+        }
 
-        private void OnDisable()
-        {
+        public void Show() {
+            Cursor.lockState = CursorLockMode.None;
+            gameObject.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
+        private void OnDisable() {
             _settingsView.Hide();
         }
 
-        private void Hide()
-        {
-            menuCanvas.SetActive(false);
+        public void Hide() {
             Cursor.lockState = CursorLockMode.Locked;
+            gameObject.SetActive(false);
+            MenuPaus.SetActive(true);
             Time.timeScale = 1f;
+        }
+
+        public void back()
+        {
+            _settingsView.gameObject.SetActive(false);
+            gameObject.SetActive(true);
+            MenuPaus.SetActive(true);
         }
 
         private void ExitMenu() {

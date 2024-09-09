@@ -6688,6 +6688,7 @@ GameObject:
   - component: {fileID: 1922655060925503750}
   - component: {fileID: 6506588668094897681}
   - component: {fileID: 2669072960859240451}
+  - component: {fileID: -158004449484420614}
   m_Layer: 0
   m_Name: "Enemy \u041F\u0438\u0440\u0430\u0442"
   m_TagString: Enemy
@@ -6778,7 +6779,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 8.86
+  m_Speed: 16
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 400
@@ -6854,10 +6855,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a006f38867e42489b7d0736ddedaee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isattak: 0
   _animator: {fileID: 1922655060925503750}
   _atackTime: 0.6
   _damage: 20
   _damagePlayer: {fileID: 2669072960859240451}
+  raycat: {fileID: 0}
+  Bulet: {fileID: 0}
+  speadbulet: 0
 --- !u!82 &2669072960859240451
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6954,6 +6959,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-158004449484420614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3616385232517090863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61521d360c767f6409c7c334bbb4398d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSourceType: 1
 --- !u!1 &3646422172578301161
 GameObject:
   m_ObjectHideFlags: 0

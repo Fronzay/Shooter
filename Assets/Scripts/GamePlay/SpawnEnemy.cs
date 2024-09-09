@@ -11,36 +11,35 @@ public class SpawnEnemy : MonoBehaviour
 
     [SerializeField] private int _maxEnemy;
     public int m_maxEnemy => _maxEnemy;
-    [SerializeField]  static int totalenemy;
 
     [SerializeField] private float _spawnEnemy;
     [SerializeField] private float _currentAliveEnemy;
     [SerializeField] private float _maxAliveEnemy;
     private int IDSpawnPoint;
-
+    public int curentdat;
     public bool _reloadSpawn;
 
     private void Update()
     {
         UpdateEnemyValue();
-        Spawn();
+        if (_currentAliveEnemy < _maxAliveEnemy)
+        {
+                            Spawn();
+
+        }
+           
+        curentdat = GameManager.Instance.m_currentDeatchEnemy;
+
     }
     
     private void Spawn()
     {
-
-        if (_currentAliveEnemy < _maxAliveEnemy && totalenemy < _maxEnemy)
-        {
-            for (int i = 0; i < _transform.Length; i++)
+        for (int i = 0; i< _transform.Length; i++)
             {
                 Instantiate(_enemyPrefab, _transform[i].position, Quaternion.identity);
-                totalenemy++;
-               // Debug.Log(totalenemy);
             }
             
 
-
-        }
     }
 
     private void UpdateEnemyValue()

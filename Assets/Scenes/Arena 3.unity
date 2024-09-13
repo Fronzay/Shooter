@@ -97,8 +97,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: eb3413a764969104faf5bdb834e69e40,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: fe905dcfb76023243aac98daf508d704,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -196,6 +198,7 @@ MonoBehaviour:
   _spawnEnemy: 0
   _currentAliveEnemy: 0
   _maxAliveEnemy: 20
+  curentdat: 0
   _reloadSpawn: 0
 --- !u!114 &24960625
 MonoBehaviour:
@@ -236,6 +239,7 @@ MonoBehaviour:
   _spawnEnemy: 0
   _currentAliveEnemy: 0
   _maxAliveEnemy: 25
+  curentdat: 0
   _reloadSpawn: 0
 --- !u!1 &33289823
 GameObject:
@@ -5224,7 +5228,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.06
+  m_Intensity: 0.69
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5905,7 +5909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1361685171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5936,7 +5940,7 @@ MonoBehaviour:
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 4.32
   m_NavMeshData: {fileID: 23800000, guid: 4549344f6390c5e4abd617e7b72ecc98, type: 2}
-  m_BuildHeightMesh: 0
+  m_BuildHeightMesh: 1
 --- !u!4 &1361685172
 Transform:
   m_ObjectHideFlags: 0
@@ -5946,8 +5950,8 @@ Transform:
   m_GameObject: {fileID: 1361685170}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 259.0969, y: 35.383762, z: 6.288238}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 197.97, y: 27.72, z: 6.288238}
+  m_LocalScale: {x: 1, y: 0.996, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6198,7 +6202,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0a965bdb8ff6c704b89e65af3285f848,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 4899.34
+      value: 4284.6196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a965bdb8ff6c704b89e65af3285f848,
         type: 3}
@@ -6254,6 +6258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a965bdb8ff6c704b89e65af3285f848,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6562,6 +6571,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843768446247783105, guid: 005a13f95e4a1b94d99880606b1705a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6056235642998751245, guid: 005a13f95e4a1b94d99880606b1705a9,
         type: 3}
